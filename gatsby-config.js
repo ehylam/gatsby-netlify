@@ -21,6 +21,7 @@ module.exports = {
         path: `${__dirname}/src/pages/contents`
       }
     },
+    `gatsby-transformer-remark`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
