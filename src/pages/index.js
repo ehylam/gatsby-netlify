@@ -2,6 +2,7 @@ import React from "react"
 import { Link, graphql } from "gatsby"
 
 import Layout from "../components/layout"
+import Content from "../components/contents"
 
 
 
@@ -14,9 +15,9 @@ const IndexPage = ({data}) => {
   console.log(html);
   return (
     <Layout>
-
       <img src={frontmatter.featuredImage}></img>
       <h1>{frontmatter.heading}</h1>
+      <Content data={frontmatter.contentModule}/>
       <Link to="/page-2/">Go to page 2</Link>
     </Layout>
   )
