@@ -10,7 +10,7 @@ collections:
     label: Content
     folder: src/pages/contents
     create: true
-    slug: "{{year}}-{{month}}-{{day}}"
+    slug: "{{year}}-{{month}}-{{day}}-{{author}}-{{second}}"
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "content-module"}
       - {label: Date, name: date, widget: datetime }
