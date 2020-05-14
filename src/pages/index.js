@@ -14,11 +14,12 @@ const IndexPage = ({data}) => {
   console.log(markdownRemark);
   console.log(frontmatter);
   console.log(html);
+  console.log(frontmatter.heroModule);
   return (
     <Layout>
       <img src={frontmatter.featuredImage}></img>
       <h1>{frontmatter.heading}</h1>
-      <Hero data={frontmatter.heroModule}/>
+      {/* <Hero data={frontmatter.heroModule}/> */}
       <Content data={frontmatter.contentModule}/>
       <Link to="/page-2/">Go to page 2</Link>
     </Layout>
