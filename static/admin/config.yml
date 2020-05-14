@@ -25,4 +25,4 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}-{{heroModule}}"
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "hero-module"}
-      - {label: "Content Module", name: "heroModule", widget: "list", fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: string}, {label: Image, name: image, widget: image}]}
+      - {label: "Content Module", name: "heroModule", widget: "list", fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: string}, {label: Background, name: image, widget: image}, {label: Foreground, name: foreground, widget: image}]}
