@@ -3,7 +3,7 @@ import React from 'react';
 
 const hero = ({data}) => {
   return (
-    {data.map((content) => (
+    data.map((content) => (
 <section className="hero_container" >
   <div className="background" style="background-image: url()">
     <div className="hero-content__wrapper">
@@ -13,7 +13,7 @@ const hero = ({data}) => {
   </div>
   <div className="foreground"></div>
 </section>
-    ))}
+    ))
    );
 }
 
