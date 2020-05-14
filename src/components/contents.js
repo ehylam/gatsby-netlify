@@ -6,10 +6,11 @@ const content = ({data}) => {
   return (
     <div className="content__container">
       {data.map((content) => (
-        <section className="content__wrapper">
-          <h1>{content.heading}</h1>
-          <p>{content.description}</p>
-          <img src={content.image}></img>
+        <section className="content_container">
+          <div className="content">
+            <h3>{content.heading}</h3>
+            <p>{content.description}</p>
+          </div>
         </section>
       ))}
     </div>
